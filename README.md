@@ -11,14 +11,18 @@ Stock Performance:
 ![2017.png](https://github.com/Calebmkelly/stock-analysis/blob/main/Resources/Execution%20Time/2017/2017.png)![2017 Refactored.png](https://github.com/Calebmkelly/stock-analysis/blob/main/Resources/Execution%20Time/2017/2017%20Refactored.png)
 
 The photos above show the execution time for the code that analyzed “green energy” stocks for a given year, with the original code being represented on the left and the refactored code being represented on the right. It is evident that the refactored code has a faster run time than the original.
+
 ![2018.png](https://github.com/Calebmkelly/stock-analysis/blob/main/Resources/Execution%20Time/2018/2018.png)![2018 Refactored.png](https://github.com/Calebmkelly/stock-analysis/blob/main/Resources/Execution%20Time/2018/2018%20Refactored.png)
 
 Following a similar format, the execution time for the year 2018 is presented. Again, the refactored code runs significantly faster than the original. 
 
 ![Original.png](https://github.com/Calebmkelly/stock-analysis/blob/main/Resources/Code/Original.png)
+
 Original code: 
 - Here, the original code utilizes nested for-loops and only has one array, “tickers().”  
+
 ![Refactored.png](https://github.com/Calebmkelly/stock-analysis/blob/main/Resources/Code/Refactored.png)
+
 Refactored:
 - Compared to the original code, the refactored code does not have a nested for-loop, but does utilize more arrays. One reason that the refactored code may run faster than the original is because sorting the data into arrays is quicker and more efficient than using a nested for-loop to initialize each stock to a row. 
 
